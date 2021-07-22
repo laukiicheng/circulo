@@ -15,7 +15,7 @@ internal class ServiceTest {
 
         val result = service.get(numberInput, dataSetA, dataSetB)
 
-        assertEquals(result, expectedResult)
+        assertEquals(expectedResult, result)
     }
 
     @Test
@@ -26,7 +26,7 @@ internal class ServiceTest {
 
         val result = service.get(numberInput, dataSetA, dataSetB)
 
-        assertEquals(result, expectedResult)
+        assertEquals(expectedResult, result)
     }
 
     @Test
@@ -37,7 +37,7 @@ internal class ServiceTest {
 
         val result = service.get(numberInput, dataSetA, dataSetB)
 
-        assertEquals(result, expectedResult)
+        assertEquals(expectedResult, result)
     }
 
     @Test
@@ -48,6 +48,6 @@ internal class ServiceTest {
 
         val result = service.get(numberInput, dataSetA, dataSetB)
 
-        assertEquals(result, expectedResult)
+        assertEquals(expectedResult, result)
     }
 }
